@@ -77,7 +77,7 @@
         
         <a href="/archives">
             <i class="fa-solid fa-box-archive fa-fw"></i>
-            <span>&ensp;档案</span>
+            <span>&ensp;归档</span>
         </a>
         
         <a href="/categories">
@@ -122,7 +122,7 @@
                         <div style="min-width: 20px; max-width: 50px; width: 10%">
                             <i class="fa-solid fa-box-archive fa-fw"></i>
                         </div>
-                        <div style="min-width: 100px; max-width: 150%; width: 20%">档案</div>
+                        <div style="min-width: 100px; max-width: 150%; width: 20%">归档</div>
                     </div>
                 </a>
                 
@@ -174,6 +174,64 @@
         
 
 <div class="post">
+    <a href="/2023/11/03/Markdown%E6%95%99%E7%A8%8B/">
+        <h2 class="post-title">markdown教程</h2>
+    </a>
+    <div class="category-and-date">
+        
+        <span class="category">
+            <a href="/categories/markdown/">
+                <span class="icon">
+                    <i class="fa-solid fa-bookmark fa-fw"></i>
+                </span>
+                markdown
+            </a>
+        </span>
+        
+        <span class="date">
+            <span class="icon">
+                <i class="fa-solid fa-calendar fa-fw"></i>
+            </span>
+            2023/11/3
+        </span>
+        
+        
+    </div>
+    <div class="description">
+        <div class="content" v-pre>
+            
+            <h5 id="前期注意"><a href="#前期注意" class="headerlink" title="前期注意"></a><p style="line-height: 2.5;">前期注意</p></h5><blockquote>
+<p>基本语法：格式符+空格+文本</p>
+<p>转义符：\+要转义的(\只能转义紧接其后的第一个字符或格式符</p>
+<p>支持大部分html标签</p>
+<p>格式可能受到主题的影响（css等，会改变原有的样式）</p>
+</blockquote>
+            
+        </div>
+    </div>
+    <div class="post-tags">
+        
+        <span class="icon">
+            <i class="fa-solid fa-tags fa-fw"></i>
+        </span>
+        
+        
+        
+        <span class="tag">
+            
+            <a href="/tags/markdown/" style="color: #00bcd4">markdown</a>
+        </span>
+        
+        <span class="tag">
+            
+            <a href="/tags/%E6%95%99%E7%A8%8B/" style="color: #03a9f4">教程</a>
+        </span>
+        
+    </div>
+    <a href="/2023/11/03/Markdown%E6%95%99%E7%A8%8B/" class="go-post">阅读全文</a>
+</div>
+
+<div class="post">
     <a href="/2023/11/03/python%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/">
         <h2 class="post-title">python基本数据类型</h2>
     </a>
@@ -219,188 +277,6 @@
         
     </div>
     <a href="/2023/11/03/python%E5%9F%BA%E6%9C%AC%E6%95%B0%E6%8D%AE%E7%B1%BB%E5%9E%8B/" class="go-post">阅读全文</a>
-</div>
-
-<div class="post">
-    <a href="/2023/11/03/Markdown%E6%95%99%E7%A8%8B/">
-        <h2 class="post-title">markdown教程</h2>
-    </a>
-    <div class="category-and-date">
-        
-        <span class="category">
-            <a href="/categories/markdown/">
-                <span class="icon">
-                    <i class="fa-solid fa-bookmark fa-fw"></i>
-                </span>
-                markdown
-            </a>
-        </span>
-        
-        <span class="date">
-            <span class="icon">
-                <i class="fa-solid fa-calendar fa-fw"></i>
-            </span>
-            2023/11/3
-        </span>
-        
-        
-    </div>
-    <div class="description">
-        <div class="content" v-pre>
-            
-            <h5 id="前期注意"><a href="#前期注意" class="headerlink" title="前期注意"></a><p style="line-height: 2.5;">前期注意</p></h5><blockquote>
-<p>基本语法：格式符+空格+文本</p>
-<p>转义符：\+要转义的(\只能转义紧接其后的第一个字符或格式符</p>
-<p>支持大部分html标签</p>
-<p>格式可能受到主题的影响（css等，会改变原有的样式）</p>
-</blockquote>
-<h4 id="一、标题"><a href="#一、标题" class="headerlink" title="一、标题"></a>一、标题</h4><ol>
-<li><p>一级标题：# 标题</p>
-</li>
-<li><p>二级标题：## 标题（以此类推）</p>
-</li>
-</ol>
-<h4 id="二、段落"><a href="#二、段落" class="headerlink" title="二、段落"></a>二、段落</h4><h5 id="换行"><a href="#换行" class="headerlink" title="换行"></a>换行</h5><ol>
-<li><p>方法1：两个以上空格加上回车或在段落后面使用一个空行来表示重新开始一个段落(感觉没用)</p>
-</li>
-<li><p>方法2：&lt;br&gt;标签可以产生一段空行行距</p>
-</li>
-</ol>
-<h5 id="行距"><a href="#行距" class="headerlink" title="行距"></a>行距</h5><p>使用css:可以使用包含在md语法内,数字代表行距大小</p>
-<p><code>&lt;p style=&quot;line-height: 数字；&quot;&gt;文本&lt;/p&gt;</code></p>
-<h5 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h5><ul>
-<li><p>斜体：*文本*</p>
-</li>
-<li><p>粗体：**文本**</p>
-</li>
-<li><p>粗斜体：***文本***</p>
-</li>
-<li><p>字体：<code>&lt;font face=&quot;字体&quot;&gt;文本&lt;/font&gt;</code></p>
-<p>示例：(注意放斜杠，不然其后的文本字体都会改变)</p>
-<p><font face="华文彩云">华文彩云</font></p>
-</li>
-<li><p>字体颜色：<code>&lt;font color=&quot;颜色(使用英文)&quot;&gt;文本&lt;/font&gt;</code></p>
-<p>颜色还可以使用16进制表示：<a target="_blank" rel="noopener" href="https://www.codeeeee.com/color/rgb.html">16进制颜色表</a> </p>
-<p>示例：</p>
-<p><font color="\#A020F0">颜色</font></p>
-</li>
-</ul>
-<h5 id="综合应用：md标题-行距-字体-颜色-md标题先加但不用加空格，最后写完后续再加空格"><a href="#综合应用：md标题-行距-字体-颜色-md标题先加但不用加空格，最后写完后续再加空格" class="headerlink" title="综合应用：md标题+行距+字体+颜色(md标题先加但不用加空格，最后写完后续再加空格)"></a>综合应用：md标题+行距+字体+颜色(md标题先加但不用加空格，最后写完后续再加空格)</h5><p><code>#(n个) &lt;p style=&quot;line-height: 2.5;&quot;&gt;&lt;font face=&quot;华文彩云&quot; color=&quot;red&quot;&gt;前期注意&lt;/font&gt;&lt;/p&gt;</code></p>
-<h5 id="分隔线"><a href="#分隔线" class="headerlink" title="分隔线"></a>分隔线</h5><p>语法：一个空行中有3格以上的*，*之间可以有空格</p>
-<h5 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h5><p>语法：~~文本~~</p>
-<h5 id="下划线"><a href="#下划线" class="headerlink" title="下划线"></a>下划线</h5><p>语法：&lt;u&gt;文本&lt;&#x2F;u&gt;</p>
-<h5 id="脚注"><a href="#脚注" class="headerlink" title="脚注"></a>脚注</h5><p>语法：</p>
-<p>其他文本…[^要注明的文本]…其他文本</p>
-<p>[^要注明的文本]：脚注文本</p>
-<h4 id="三、列表"><a href="#三、列表" class="headerlink" title="三、列表"></a>三、列表</h4><h5 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h5><p>语法：</p>
-<p>*  文本</p>
-<p>*  文本</p>
-<p>……</p>
-<h5 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h5><p>语法：使用数字并加上 <strong>.</strong> 号来表示(注意有空格)</p>
-<ol>
-<li><p>文本</p>
-</li>
-<li><p>文本</p>
-</li>
-</ol>
-<p>……</p>
-<h5 id="列表嵌套"><a href="#列表嵌套" class="headerlink" title="列表嵌套"></a>列表嵌套</h5><p>语法：缩进4个空格即可</p>
-<h4 id="四、区块"><a href="#四、区块" class="headerlink" title="四、区块"></a>四、区块</h4><h5 id="同级区块-回车后才是一个区块"><a href="#同级区块-回车后才是一个区块" class="headerlink" title="同级区块(回车后才是一个区块)"></a>同级区块(回车后才是一个区块)</h5><p>&gt; 文本</p>
-<p>&gt; 文本</p>
-<p>……</p>
-<h5 id="区块嵌套"><a href="#区块嵌套" class="headerlink" title="区块嵌套"></a>区块嵌套</h5><p>&gt; 外层</p>
-<p>&gt; &gt; 第一层</p>
-<p>&gt; &gt; &gt; 第二层</p>
-<p>….以此类推</p>
-<h5 id="区块与列表嵌套"><a href="#区块与列表嵌套" class="headerlink" title="区块与列表嵌套"></a>区块与列表嵌套</h5><p>区块符后夹列表符即可(同理：列表与区块嵌套)</p>
-<h4 id="五、代码显示"><a href="#五、代码显示" class="headerlink" title="五、代码显示"></a>五、代码显示</h4><h5 id="段落-片段上的代码"><a href="#段落-片段上的代码" class="headerlink" title="段落&#x2F;片段上的代码"></a>段落&#x2F;片段上的代码</h5><p>语法：`函数`</p>
-<h5 id="代码块"><a href="#代码块" class="headerlink" title="代码块"></a>代码块</h5><p>语法：</p>
-<p>`&#96;&#96;语言（可以不指定）</p>
-<p>代码块</p>
-<p>`&#96;&#96;</p>
-<p>示例：</p>
-<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">def</span> <span class="token function">foo</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">:</span>
-    <span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"markdown"</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-
-<h4 id="六、超链接"><a href="#六、超链接" class="headerlink" title="六、超链接"></a>六、超链接</h4><h5 id="隐藏链接地址"><a href="#隐藏链接地址" class="headerlink" title="隐藏链接地址"></a>隐藏链接地址</h5><p>[链接名称](链接地址)</p>
-<p>示例：</p>
-<p><a target="_blank" rel="noopener" href="https://dimtown.com/">次元小镇</a></p>
-<p><a target="_blank" rel="noopener" href="https://mp.weixin.qq.com/s/4CyEblXNNjJ6UkV3JjTV5g">玉米粒</a></p>
-<h5 id="直接链接地址"><a href="#直接链接地址" class="headerlink" title="直接链接地址"></a>直接链接地址</h5><p>&lt;链接&gt;</p>
-<p>示例：</p>
-<p><a target="_blank" rel="noopener" href="https://gitee.com/">https://gitee.com/</a></p>
-<h5 id="高级链接地址"><a href="#高级链接地址" class="headerlink" title="高级链接地址"></a>高级链接地址</h5><p>[gitee][变量]</p>
-<p>示例：</p>
-<p><a target="_blank" rel="noopener" href="https://gitee.com/">码云</a></p>
-<h4 id="七、图片"><a href="#七、图片" class="headerlink" title="七、图片"></a>七、图片</h4><h5 id="常用语法：-alt-属性文本-图片地址-“可选标题文本”"><a href="#常用语法：-alt-属性文本-图片地址-“可选标题文本”" class="headerlink" title="常用语法：![alt 属性文本](图片地址 “可选标题文本”)"></a>常用语法：![alt 属性文本](图片地址 “可选标题文本”)</h5><ul>
-<li>注：可选标题文本（鼠标放置一定时长会显示）</li>
-</ul>
-<p>示例：</p>
-<p><img src="http://pic.bizhi360.com/bpic/70/11170.jpg" alt="alt 图片" title="情侣"></p>
-<h5 id="变量赋值法，图片不会直接显示"><a href="#变量赋值法，图片不会直接显示" class="headerlink" title="变量赋值法，图片不会直接显示"></a>变量赋值法，图片不会直接显示</h5><p>[文本][变量名]</p>
-<p>[变量名]：图片链接   （一般放在文章最后）</p>
-<h5 id="使用html-标签，好处是可以指定许多图片属性-效果不佳"><a href="#使用html-标签，好处是可以指定许多图片属性-效果不佳" class="headerlink" title="使用html 标签，好处是可以指定许多图片属性(效果不佳)"></a>使用html 标签，好处是可以指定许多图片属性(效果不佳)</h5><p>&lt;img alt&#x3D;”” title&#x3D;”” border&#x3D;”5” src&#x3D;”链接”&#x2F;&gt;</p>
-<ul>
-<li><p>alt:  替换文本，图像不能正常显示会用文字替换</p>
-</li>
-<li><p>title:  提示文本,鼠标放到图像上，显示的文字</p>
-</li>
-<li><p>border:  设置图像的边框粗细</p>
-</li>
-</ul>
-<p>示例：</p>
-<img alt="情侣" title="情侣" border="20" src="http://pic.bizhi360.com/bpic/70/11170.jpg"/>
-
-<h4 id="八、表格"><a href="#八、表格" class="headerlink" title="八、表格"></a>八、表格</h4><p>语法：</p>
-<pre class="line-numbers language-none"><code class="language-none">| 表头 | 表头 |
-| ---- | ---- |
-|单元格 |单元格 |
-|单元格 |单元格 |<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre>
-
-<p>示例：</p>
-<table>
-<thead>
-<tr>
-<th align="center">姓名</th>
-<th align="center">年龄</th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center">张三</td>
-<td align="center">17</td>
-</tr>
-</tbody></table>
-<h4 id="九、数学表达式"><a href="#九、数学表达式" class="headerlink" title="九、数学表达式"></a>九、数学表达式</h4><p>行内显示:<code>$表达式$</code></p>
-<p>示例：</p>
-<p>$f(x) &#x3D; sin(x)+12$</p>
-<h4 id="十、后续（需要安装插件等，关系到hexo框架，此处不做详细教学）"><a href="#十、后续（需要安装插件等，关系到hexo框架，此处不做详细教学）" class="headerlink" title="十、后续（需要安装插件等，关系到hexo框架，此处不做详细教学）"></a>十、后续（需要安装插件等，关系到hexo框架，此处不做详细教学）</h4><blockquote>
-<p>数学表达式</p>
-<p>流程图</p>
-</blockquote>
-
-            
-        </div>
-    </div>
-    <div class="post-tags">
-        
-        <span class="icon">
-            <i class="fa-solid fa-tags fa-fw"></i>
-        </span>
-        
-        
-        
-        <span class="tag">
-            
-            <a href="/tags/markdown/" style="color: #ff7d73">markdown</a>
-        </span>
-        
-        <span class="tag">
-            
-            <a href="/tags/%E6%95%99%E7%A8%8B/" style="color: #00bcd4">教程</a>
-        </span>
-        
-    </div>
-    <a href="/2023/11/03/Markdown%E6%95%99%E7%A8%8B/" class="go-post">阅读全文</a>
 </div>
 
 
