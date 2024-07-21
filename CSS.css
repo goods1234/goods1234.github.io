@@ -1,0 +1,126 @@
+/* 注释 */
+/* https://www.appduoduo.com/hg_gcjp/227472.html */
+
+/* 清除默认内外边距 */
+*{padding:0;margin:0;}
+
+body{
+/* 设置背景图片 */
+background-image:url(图片/ai/background-image.jpg);
+/* 不平铺 */
+background-repeat:no-repeat;
+/* 背景图片固定 */
+background-attachment:fixed
+}
+
+.div-first{
+/* 设置div宽度高度 */
+width:512px;
+height:768px;
+/* 设置背景图片 */
+background-image:url(图片/1.png);
+/* 不平铺 */
+background-repeat:no-repeat;
+/* 设置左边距 */
+margin-left:50px;
+}
+
+.div-second{
+/* 设置div宽度高度 */
+width:512px;
+height:768px;
+/* 设置背景图片 */
+background-image:url(图片/1.png);
+/* 不平铺 */
+background-repeat:no-repeat;
+/* 设置左外边距 */
+margin-left:860px;
+}
+
+
+.div-p{
+/* 设置div宽度高度 */
+width:450px;
+height:450px;
+/* 边框粗细 */
+border-width:5px;
+/* 边框样式 */
+border-style:solid;
+/* 边框颜色 */
+border-color:#BF3EFF;
+/* 设置上外边距 （与两张图片有距离）*/
+margin-top:20px;
+/* 设置圆角边框*/
+border-radius:20px;
+/*让盒子水平居中*/
+margin:20px auto;
+
+}
+.div-p:hover{
+/*设置鼠标经过时有盒子阴影*/
+box-shadow:5px 5px 5px 5px black;
+}
+
+
+p{
+/* 文字居中 */
+text-align:center;
+color:yellow;
+color:red;
+/* 设置上外边距*/
+margin-top:15px;
+}
+table,tr,th,td{
+/* 设置宽度高度 */
+width:400px;
+height:30px;
+/* 边框粗细 */
+border-width:1;
+/* 边框样式 */
+border-style:solid;
+/* 边框颜色 */
+border-color:rgb(255,255,255);
+/*设置边框细线*/
+border-collapse:collapse;
+/*文字居中*/
+text-align:center
+}
+
+.父盒子{
+/* 设置宽度高度 */
+/*width:1000px;
+height:500px;*/}
+
+.clearfix:before,.clearfix:after{content:"";display:table;}
+.clearfix:after{clear:both;}
+.clearfix{/*解决IE6,IE7兼容问题*/*zoom:1;}
+
+.浮动1{
+/* 设置宽度高度 */
+width:500px;
+height:500px;
+/* 设置背景颜色 */
+background-color:red;
+/* 浮动 */
+float:left;
+}
+.浮动2{
+/* 设置宽度高度 */
+width:500px;
+height:500px;
+/* 设置背景颜色 */
+background-color:blue;
+/* 浮动 */
+float:left;
+}
+
+.绝对定位{
+/* 设置宽度高度 */
+width:100px;
+height:300px;
+/* 设置背景图片 */
+background-image:url(图片/绝对定位.jpg);
+position:fixed;
+right:50px;
+top:200px;
+}
